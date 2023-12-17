@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	cli "github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v2"
 	"log"
 	"os"
 )
