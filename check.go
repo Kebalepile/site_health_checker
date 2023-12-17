@@ -8,7 +8,7 @@ import (
 
 func Check(destination string, port string) string {
 	addr := fmt.Sprintf("%v:%v", destination, port)
-	timeout := time.Duration(5 * time.Second)
+	timeout := time.Duration(20 * time.Second)
 	conn, err := net.DialTimeout("tcp", addr, timeout)
 
 	var status string
